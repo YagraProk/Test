@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<a class="item" href="#">Get started</a> 
+<a class="item" href="Signup.html">Get started</a> 
 </template>
 
 <style scoped>

@@ -10,7 +10,7 @@
             <div><Button/></div>
         </hero>
         <section class="section section-first">
-            <img class="section-first-img" src="src\components\images\Image1.png" alt="">
+            <img class="section-first-img" src="src\components\images\Image1.png" alt="Transfer image">
             <h2 class="section-first-title">
                 Cheap fees <strong>transfer</strong>, <br/>no fixed cents.
             </h2>
@@ -25,13 +25,13 @@
             </p>
             <p class="section-second-text">
                 See supported countries
-                <img src="src\components\images\Vector-arrow.png" alt="">
+                <img src="src\components\images\Vector-arrow.png" alt="Arrow to globe image">
             </p>
             </div>
-            <img class="section-second-img" src="src\components\images\Image2.png" alt="" >
+            <img class="section-second-img" src="src\components\images\Image2.png" alt="Globe image" >
         </section>
         <section class="section section-third">
-            <img class="setion-third-img" src="src\components\images\Image3.png" alt="" >
+            <img class="section-third-img" src="src\components\images\Image3.png" alt="Time image" >
             <div class="container__text">  
             <h1 class="section-third-title">
                 Time is <span>money.</span>
@@ -106,7 +106,7 @@
       padding-bottom: 117px;
     }
     
-    .setion-third-img{
+    .section-third-img{
       padding-right: 65px;
     }
 
@@ -122,123 +122,6 @@
     .section-third-text{
       padding-bottom: 128px;
     }
-
-
-
-
   
-
-    
-
-
-
-
-
-
-
-
-
-
-    /*
-  .header {
-    margin: 60px 71px 80px 63px;
-  }
-    .header__inner{
-      box-sizing: border-box;
-      display: flex;
-      justify-content: space-between;
-      max-width: 1512px;
-      align-items: center;
-      margin: auto;
-    }
-  
-    .logo{
-      cursor: default;
-    }
-  
-    .menu {
-      max-width: 718px;
-    }
-  
-  .menu__list{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .menu__list-item{
-    list-style: none;
-    cursor: pointer;
-  }
-  
-  li img{
-    padding-left: 10px;
-  }
-  
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  
-  .item1{
-    padding-right: 83.5px;
-  }
-  
-  .item2{
-    padding-right: 76px;
-  }
-  
-  .item3{
-    padding-right: 72px;
-  }
-  
-  .item4{
-    padding-right: 45.5px;
-  }
-  
-  .item5 a{
-    border: 2px solid black;
-    padding: 10px;
-    background-color: #9747FF;
-    transition-duration: 0.4s;
-    margin-top: -10px;  
-    box-shadow: black 2px 2px;
-    color: #FFFFFF; 
-    font-weight: 700;
-  }
-  
-  .item5 a:hover{
-    background-color: #FFFB47; 
-    color: black; 
-   }
-    
-  .drop{
-    padding: 20px 50px;
-    background-color: white;
-    position: absolute;
-    margin-left: -40px;
-    border: 1px solid black;
-    display: none;
-  }
-   .dropmenu {
-    background-color: white;
-    list-style: none;
-    text-align: center;
-    padding-top: 5px;
-  }
-  
-  .dropmenu a {
-  background-color: white;
-  }
-  .item1:hover .drop{
-  display: block;
-  } 
-  
-  .item2:hover .drop{
-  display: block;
-  } 
-  
-  .item3:hover .drop{
-  display: block;
-  }  */
   </style>
   

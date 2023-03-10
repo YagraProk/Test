@@ -5,12 +5,12 @@ import Button from '/src/components/Button.vue'
 <template>
   <header class="header">
     <div class="header__inner">
-      <a href="#" class="logo">
-        <img src="src\components\images\Logo.png" alt="Логотип">
+      <a href="index.html" class="logo">
+        <img src="src\components\images\Logo.png" alt="Logo">
       </a>
       <nav class="menu">
         <ul class="menu__list">
-          <li class="menu__list-item item1">Service<img src="src\components\images\Vector.png" alt="">
+          <li class="menu__list-item item1">Service<img src="src\components\images\Vector.png" alt="Arrow for submenu">
               <ul class="drop">
 			                <li class="dropmenu"><a href="#">Text 1</a></li>
 			                <li class="dropmenu"><a href="#">Text 2</a></li>
@@ -18,21 +18,21 @@ import Button from '/src/components/Button.vue'
                       <li class="dropmenu"><a href="#">Text 4</a></li>
 			        </ul>
           </li>
-          <li class="menu__list-item item2">API <img src="src\components\images\Vector.png" alt="">
+          <li class="menu__list-item item2">API <img src="src\components\images\Vector.png" alt="Arrow for submenu">
             <ul class="drop">
 			                <li class="dropmenu"><a href="#">Text 1</a></li>
 			                <li class="dropmenu"><a href="#">Text 2</a></li>
 			                <li class="dropmenu"><a href="#">Text 3</a></li>
                       <li class="dropmenu"><a href="#">Text 4</a></li>
 			        </ul></li>
-          <li class="menu__list-item item3">Company <img src="src\components\images\Vector.png" alt="">
+          <li class="menu__list-item item3">Company <img src="src\components\images\Vector.png" alt="Arrow for submenu">
             <ul class="drop">
 			                <li class="dropmenu"><a href="#">Text 1</a></li>
 			                <li class="dropmenu"><a href="#">Text 2</a></li>
 			                <li class="dropmenu"><a href="#">Text 3</a></li>
                       <li class="dropmenu"><a href="#">Text 4</a></li>
 			        </ul></li>
-          <li class="menu__list-item item4"><a href="#">Pricing</a></li>
+          <li class="menu__list-item item4"><a href="Pricing.html">Pricing</a></li>
           <li class="menu__list-item"><a href="#"><Button/></a></li>  
         </ul>
       </nav>
