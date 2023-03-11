@@ -93,7 +93,6 @@ import Header from './components/Header.vue'
   padding: 10px;
   background-color: #9747FF;
   transition-duration: 0.4s;
-  margin-top: -10px;  
   box-shadow: black 2px 2px;
   color: #FFFFFF; 
   font-weight: 700;
@@ -117,5 +116,38 @@ import Header from './components/Header.vue'
  a{
   cursor: default;
  }
+
+ @media (max-width: 1270px) {
+  .main{
+    margin-top: 100px;
+  }
+
+  .container{
+    min-width: 90%;
+  }
+ }
  
+ @media (max-width: 550px) {
+  .main{
+    margin-top: 30px;
+  }
+
+  .container{
+    min-height: 90%;
+  }
+
+  .container__inner{
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .item__container{
+    padding-top: 35px;
+    padding-bottom: 50px;
+  }
+   
+  input{
+   width: 300px;
+  }
+ }
 </style>

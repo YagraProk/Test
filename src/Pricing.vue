@@ -56,4 +56,47 @@ import Button from '/src/components/Button.vue'
     padding: 33px 266px 85px 266px;
   }
 
+  @media (max-width: 1060px) {
+    .main{
+    margin-top: 50px;
+    }
+  }
+
+  @media (max-width: 760px) {
+    
+    .container{
+      min-width: 70%;
+      min-height: 70%;
+      margin: 10px;
+    }
+  .text{
+    font-size: 20px;
+    line-height: 122%;
+  }
+
+  .container__inner {
+    padding-top: 40px;
+  }
+
+  .text__main{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text__speech{
+    padding: 20px;
+  }
+
+  .container__inner div{
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+
+   .container__inner {
+    padding-top: 20px;
+    }
+}
+
  </style>
