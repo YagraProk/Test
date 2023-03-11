@@ -32,9 +32,9 @@ import Button from '/src/components/Button.vue'
 			                <li class="dropmenu"><a href="#">Text 3</a></li>
                       <li class="dropmenu"><a href="#">Text 4</a></li>
 			        </ul></li>
-          <li class="menu__list-item item4"><a href="Pricing.html">Pricing</a></li>
-          <li class="menu__list-item"><a href="#"><Button/></a></li>  
-        </ul>
+            <li class="menu__list-item item4"><a href="Pricing.html">Pricing</a></li>
+            <li class="menu__list-item"><a href="#"><Button/></a></li>  
+          </ul>  
       </nav>
     </div>
   </header>
@@ -129,4 +129,48 @@ display: block;
 .item3:hover .drop{
 display: block;
 } 
+
+@media (max-width: 900px) {
+.item1{
+  padding-right: 40px;
+}
+
+.item2{
+  padding-right: 46px;
+}
+
+.item3{
+  padding-right: 35px;
+}
+
+.item4{
+  padding-right: 25.5px;
+}
+}
+
+@media (max-width: 760px) {
+  
+  .header{
+    margin-left: 20px;
+  }
+
+  .header__inner{
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu__list{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .drop{
+  padding: 20px 50px;
+  background-color: white;
+  position: absolute;
+  margin-left: 50px;
+  border: 1px solid black;
+  display: none;
+}
+}
+
 </style>

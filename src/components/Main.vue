@@ -122,6 +122,151 @@
     .section-third-text{
       padding-bottom: 128px;
     }
+
+    @media (max-width: 1270px) {
+    
+    .section-first-img{
+      width: 70%;
+      height: 70%;
+      padding-left: 15px;
+    }
+
+    .section-first-title {
+      padding-left: 20px;
+      font-size: 30px;
+      padding-top: 0px;
+      margin: auto;
+    }
+
+    .section-second-img {
+      width: 50%;
+      height: 50%;
+    }
+
+    .section-second-title {
+      padding-left: 15px;
+      font-size: 45px;
+    } 
+
+    .section-third-title{
+      font-size: 55px;
+    }
+    .section-third-text{
+      font-size: 20px;
+    }
+    }
+
+    @media (max-width: 1060px) {
+      .section-second-title {
+      font-size: 40px;
+    } 
+
+    .section-second-text{
+      font-size: 20px;
+    }
+
+    .section-third-img{
+      width: 70%;
+      height: 70%;
+}
+    .section-third-title{
+      font-size: 35px;
+}
+    .section-third-text{
+      font-size: 16px;
+}
+
+  }
+
+  @media (max-width: 960px) {
+   
+    .section-second {
+      margin-bottom: 50px;
+    }
+    .section-second-title{
+      margin-bottom: 36px;
+      text-align: center;
+    }
+        
+    .section-second-text{
+      text-align: right;
+      padding-bottom: 57px;
+    }
+
+    .section-third-img{
+      width: 60%;
+      height: 60%;
+    }
+
+    .section-third-title{
+      font-size: 35px;
+      line-height: 125%;
+    }
+
+    .section-third-text{
+      padding-bottom: 64px;
+    }
+    }
   
+    @media (max-width: 760px) {
+      
+      .hero{
+      margin-bottom: 100px;
+    }
+      .section-first-title {
+      padding-left: 15px;
+      font-size: 20px;
+      padding-top: 0px;
+      margin: auto;
+    }
+
+    .section-first{
+      margin-bottom: 75px;
+    }
+   }
+    
+    @media (max-width: 550px) {
+      .section{
+      flex-direction: column;
+      align-items:center;
+      gap:15px;
+    }
+    .section-first{
+      margin-bottom: 45px;
+    }
+    .section-second-title{
+      margin-bottom: 16px;
+    }
+        
+    .section-second-text{
+      display: flex;
+      padding-bottom: 17px;
+      text-align: center;
+      justify-content: center;
+    }
+
+     p img{
+      display: none;
+     }
+     .section-third-title{
+      text-align: center;
+     }
+
+    .section-third-text{
+      text-align: center;
+      padding-bottom:32px;
+     }
+
+    .container__text div{
+      text-align: center;
+    }
+  }
+
+  @media(max-width: 380px){
+    .hero{
+      margin-bottom: 50px;
+    }
+}
+
   </style>
   

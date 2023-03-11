@@ -115,4 +115,46 @@ letter-spacing: -0.04em;
    padding-right: 40px;
 }
 
+@media (max-width: 900px){
+
+  .footer{
+    margin-top: 50px;
+  }
+  .footer__inner{
+    padding: 20px;
+    
+}
+
+  .block1,
+  .block2{
+    padding-right: 30px;
+}
+
+.contacts__in{
+   padding-right: 20px;
+}
+
+.contacts__lin{
+   padding-right: 20px;
+}
+}
+
+@media (max-width: 760px){
+  .footer__inner{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contacts{
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 550px){
+  .block1,
+.block2{
+    padding-right: 10px;
+}
+}
 </style>
